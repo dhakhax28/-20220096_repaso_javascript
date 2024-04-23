@@ -1,0 +1,42 @@
+/* Estilos minimalistas pero modernos */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Color de fondo */
+    color: #333; /* Color de texto principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color del título */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+.table {
+    background-color: #fff; /* Color de fondo de la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    overflow: hidden; /* Ocultar el desbordamiento de contenido */
+}
+
+.table th {
+    background-color: #007bff; /* Color de fondo del encabezado de la tabla */
+    color: #fff; /* Color de texto en el encabezado de la tabla */
+    padding: 15px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.table td {
+    padding: 15px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2; /* Cambio de color al pasar el mouse */
+}
